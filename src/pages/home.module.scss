@@ -3,6 +3,21 @@
     height: calc(100vh - 6.5rem);
     overflow-y: scroll;
 
+    /*Scrollbar style*/
+    &::-webkit-scrollbar {
+        width: .3125rem;
+      }
+      
+      &::-webkit-scrollbar-track {
+        background-color: var(--white);
+        border-radius: 100px;
+      }
+      
+      &::-webkit-scrollbar-thumb {
+        background-color: var(--green-500);
+        border-radius: 100px;
+      }
+
     h2{
         margin-top: 3rem;
         margin-bottom: 1.5rem;
